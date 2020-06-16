@@ -1,0 +1,126 @@
+/* 第三种样式 */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 1400px;
+    height: 920px;
+    border: 1px solid #e2e2e2;
+    border-top: none;
+}
+ul,li{
+    list-style: none;
+    font-weight: bold;
+}
+h1{
+    margin-top: 7px;
+    padding: 25px;
+    color: #fff;
+}
+
+h2{
+    width: 140px;
+    height: 160px;
+    background:#d6d6d6 ;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    border-bottom: 3px solid #fff;
+}
+
+span{
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+.contact li{
+    float: left;
+}
+.contact span,a{
+    margin-left: 10px;
+}
+
+/* 初始化结束 */
+/* 头部 */
+.head{
+    width: 100%;
+    background: #848484;
+    height: 100px;
+}
+/* 基本信息 */
+
+
+.basicinfo .binfo{
+    clear: both;
+    width: 1260px;
+    height: 160px;
+    border-bottom: 3px solid #e2e2e2;
+    position: relative;
+    display: table-cell;
+}
+.binfo li{
+    float: left;
+    padding: 20px;
+}
+
+/* 联系方式 */
+.phone {
+    clear: both;
+    width: 1260px;
+    height: 160px;
+    border-bottom: 3px solid #e2e2e2;
+    position: relative;
+    display: table-cell;
+}
+.phone li{
+    float: left;
+    padding: 20px;
+}
+/* 能力描述部分 */
+.dis {
+    /* clear: both; */
+    width: 1260px;
+    height: 160px;
+    border-bottom: 3px solid #e2e2e2;
+    display: table-cell;
+   
+}
+.dis li{
+    padding: 20px;
+}
+.dis span{
+    margin: 0;
+}
+/* 教育背景 */
+.back{
+    clear: both;
+    width: 1260px;
+    height: 160px;
+    border-bottom: 3px solid #e2e2e2;
+    position: relative;
+    display: table-cell;
+}
+.back li{
+    padding: 20px;
+}
+.back span{
+    margin: 0;
+}
+
+/* 项目经历 */
+.pj{
+    clear: both;
+    width: 1260px;
+    height: 160px;
+    /* border-bottom: 3px solid #e2e2e2; */
+    position: relative;
+    display: table-cell;
+
+}
+.pj li{
+    padding: 20px;
+}
+.pj span{
+    margin: 0;
+}
